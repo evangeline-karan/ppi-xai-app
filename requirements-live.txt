@@ -1,0 +1,12 @@
+# Live mode (upload your own complex): needs about 4 GB RAM or more.
+# Use this file's content as requirements.txt on a Hugging Face Space, and set the variable PPI_LIVE=1
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit>=1.50
+numpy
+pandas
+matplotlib
+requests
+torch
+torch_geometric
+biopython
+fair-esm
